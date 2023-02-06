@@ -1,7 +1,7 @@
 const http = require('http');
 const server = http.createServer((req,res)=>{  
     if(req.url == '/') {
-        res.write('Welcome to webpage 1');
+        res.write('Welcome to webpage');
         res.end();
     }else if(req.url == '/about'){
         res.write('Welcome to About Us');
